@@ -12,7 +12,7 @@ Read this file in full at the start of every session.
 - NMLS# 2129263
 - 36, male
 - Contact email: davidthomaschin@gmail.com
-- Prior career: ~8 years as an elementary school teacher (taught ~240 students) before transitioning to mortgage lending
+- Prior career: ~8 years as an elementary school teacher (~240 students) before transitioning to mortgage lending
 - Held a loan officer role at ZHL before promotion to Regional Manager
 - Public Zillow lender profile (reflects his LO tenure, not current role):
   - 5.00 average across 69 reviews
@@ -35,8 +35,74 @@ Track, manage, and improve:
 1. **Loan officer performance** — identify who to coach, on what, at what cadence
 2. **Agent partner ROI** — rank partners for focused effort and define the approach for each tier
 
-David will be sharing reporting on both LOs and agent partners. Help him turn that
-data into decisions.
+David shares reporting on both LOs and agent partners. Help him turn that data into decisions.
+
+---
+
+## Current Top Priority
+
+**Determine which agent teams to prioritize and how to leverage LOs to best support them.**
+
+Sub-questions:
+- Which agent teams are working with which loan officers?
+- How effective is each LO ↔ agent pairing?
+- What interventions are needed to (a) increase fundings and (b) increase real estate agent partner adoption of ZHL financing?
+
+---
+
+## LO KPI Set
+
+All tracked KPIs:
+- **Funded loans / month** ★
+- **VPAs** (Verified Pre-Approvals) ★
+- **Locks** ★
+- **STUs** (Submitted to Underwriting) ★
+- Leads / day
+- Speed to lead
+- CP% (Credit Pulls per lead)
+- VPA% (VPAs per lead)
+- DVPA% (Digital VPAs without Ocrolus, per lead)
+- TXN Lost Rate (leads transferred to a ZHL LO that ultimately closed with a different lender)
+
+★ = the four KPIs David and ZHL leadership weight most heavily. No internal/external mismatch to manage.
+
+**Claude's standing flag:** TXN Lost Rate should be treated as a top-tier internal coaching metric. It isolates execution from lead quality and is the highest-information-content KPI for diagnosing LO weakness. Surface it whenever LO performance is being analyzed.
+
+## Performance Tiering & 1:1 Cadence
+
+- LOs are tiered top / mid / bottom.
+- Current cadence:
+  - Top: monthly
+  - Mid: 2x / month
+  - Bottom: weekly
+- **Claude's standing position (moderate confidence):** this cadence is likely upside-down for revenue roles. Top performers have the steepest coaching response curves; bottom-tier weekly meetings frequently become PIP theater. Recommended cadence is biweekly top / weekly mid / weekly bottom with an explicit 60–90 day decision date. Restate this when LO development is being discussed.
+- **Open:** tier definition (metric, threshold, evaluation window) and current LO distribution across tiers.
+
+## Reporting Formats
+
+- CSV exports from **Salesforce**, **Tableau**, **Encompass**
+- Screenshots from **Replit**
+- Skip raw text pastes for tabular data — column alignment breaks.
+
+## LO ↔ Agent Pairing Model
+
+- A Zillow internal role called **Growth Advisor** introduces LOs to real estate agent partners and teams.
+- After introductions, **agents choose** which LO they prefer to send clients to.
+- Implication: LOs do not "own" agent relationships in the traditional sense; agents have free choice. The primary lever is making specific LOs more attractive to specific agent profiles, not forced reassignment.
+
+## "High-Return" Agent Partner Definition
+
+An agent partner is high-return when they meet all of:
+- **Transfer rate ≥ 20%**
+- **PCVR ≥ 6%** (closing rate on Zillow leads)
+- **High pre-approval-to-lead ratio** with a Zillow LO
+- **Adoption rate ≥ 20%** (share of the agent's closings that took ZHL financing)
+
+Definitions to confirm with David: PCVR full name + denominator; exact numerator/denominator of transfer rate; DVPA vs. full VPA distinction and Ocrolus's role.
+
+## Business Rhythm
+
+None specified yet. No standing weekly/monthly/quarterly cycles to plan around.
 
 ---
 
@@ -73,13 +139,19 @@ data into decisions.
 
 ---
 
-## Open Briefing Items (to be filled in as David shares them)
+## Open Items
 
-- LO KPI set (what is tracked, what David weights, what leadership weights)
-- Performance tiering and 1:1 / team review cadence
-- Reporting format David will share (CSV, screenshots, raw paste)
-- Agent partner segmentation criteria (Premier Agent tier, team vs. solo, conversion rate, volume, loan size)
-- LO ↔ agent pairing model (fixed vs. reassignable)
-- Definition of a "high-return" agent partner
-- First-priority workstream (LO coaching, agent ranking, meeting prep, other)
-- Business rhythm (weekly / monthly / quarterly cycles)
+- LO tier definition: metric(s), threshold, evaluation window
+- Current LO distribution across top/mid/bottom (of the 12)
+- Agent partner book segmentation: Premier vs. non-Premier, solo vs. team, volume buckets, conversion buckets
+- PCVR exact definition
+- Transfer rate exact numerator/denominator
+- DVPA vs. full VPA exact distinction (Ocrolus role)
+- Agent-level data CSV (last 6–12 months) for prioritization framework
+- LO ↔ agent pairing map with referral frequency
+- LO performance dashboard, same period
+- Agent team rosters for teams of 3+
+
+---
+
+Last updated: 2026-05-28
